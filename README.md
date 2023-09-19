@@ -14,6 +14,7 @@ struct file {
     char lines[MAX_FILE_LINES][MAX_LINE_LEN];
     int num_lines;
 };
+```
 
 # Function print_file
 void print_file(struct file* f) prints the contents of a file to the console.
@@ -33,7 +34,7 @@ void delete_line(struct file* f, int pos) deletes a line at a specific position 
 # Function main
 The main function is the entry point of the program.
 
-## It performs the following steps:
+# It performs the following steps:
 1. Declares variables including a struct file and a command buffer.
 2. Prompts the user for a filename and loads the file into memory.
 3. Enters a main loop where the user can interact with the file.
