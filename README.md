@@ -16,31 +16,13 @@ struct file {
 };
 ```
 
-# Function print_file
-void print_file(struct file* f) prints the contents of a file to the console.
-
-# Function load_file
-void load_file(struct file* f) loads a file from disk into memory.
-
-# Function save_file
-void save_file(struct file* f) saves the current state of the file to disk.
-
-# Function insert_line
-void insert_line(struct file* f, int pos) inserts a new line at a specific position in the file.
-
-# Function delete_line
-void delete_line(struct file* f, int pos) deletes a line at a specific position in the file.
-
-# Function main
-The main function is the entry point of the program.
-
 # It performs the following steps:
 1. Declares variables including a struct file and a command buffer.
 2. Prompts the user for a filename and loads the file into memory.
 3. Enters a main loop where the user can interact with the file.
 4. Displays the file, prompts for a command, and executes the corresponding action based on the command
 
-## Usage
+## Usage
 1. Compile and run the program.
 2. Enter the filename when prompted.
 3. Follow the on-screen instructions to perform actions on the file.
